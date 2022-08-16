@@ -1,0 +1,18 @@
+nav {
+    height: 40px;
+    padding: 30px;
+  
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  
+      a {
+        color: black;
+  
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
